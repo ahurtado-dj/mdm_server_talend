@@ -2,6 +2,11 @@
 TALEND MDM
 ======================================
 
+basa su estructura en la existencia de un hub central de datos definido por talend: por debajo el repositorio es xml llamada "eXist" y ofrece la forma de crear vistas y busquedas
+se define al inicio la estructutra de la entidad en un exquema xsd
+posteriormente se crean estructuras para entrada o salida. Luego se deben hacer los jobs de exportacion o importacion de datos y existen una especie de listeners que tiene talend para conocer cuando se modifican los registros del repositorio central.
+El esquema planteado por talend para MDM no es práctico para el escenario del sistema actual. 
+
 para poder realizar proyectos MDM se 
 - instalacion: 
 	se descomprime el studio
